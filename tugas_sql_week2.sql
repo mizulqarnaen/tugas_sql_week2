@@ -60,6 +60,8 @@ insert into customers(customerNumber, customerName, contactLastName, contactFirs
 	(select residentNumber, contactFirstName, contactLastName, contactFirstName, city, phone, city, state, postalCode, country 
 	from resident where city = 'NYC');
 
+select * from customers c order by customerNumber desc;
+
 -- UPDATE
 
 -- cek produk paling banyak terjual
